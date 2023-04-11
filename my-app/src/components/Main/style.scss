@@ -1,0 +1,40 @@
+
+  .main{
+    // margin-top: 260px;
+    padding: 0 28px;
+    height: max-content;
+  }
+  .P-main{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .P-main-text{
+    color: #099;
+  }
+  .P-main-section{
+    color: #099;
+    font-size: 18px;
+    
+  }
+  .P-main-input{
+    width: 40px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  .G-main{
+    margin-top: 70px;
+  }
+  .G-main-images{
+    display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+   
+  }
+  .G-main-image > img{
+    width: 350px;
+    height: 265px;
+  }

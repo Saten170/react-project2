@@ -1,0 +1,35 @@
+// *{
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   height: 100px;
+//   width: ;
+// }
+
+.header{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+}
+.P-logo{
+  color: #3399CC;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.P-container>a{
+text-decoration: none;
+margin-left: 40px;
+padding: 8px;
+color: #666666;
+border-bottom: 4px solid transparent;
+font-size: 1.3rem;
+}
+.P-container>a:hover{
+  border-color:green;
+}
+#photos{
+  border-color: #33CCFF;
+}

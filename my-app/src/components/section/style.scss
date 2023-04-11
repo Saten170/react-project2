@@ -1,0 +1,41 @@
+
+  .section{
+    margin-top: 15px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // position: fixed;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .P-form{
+    display: flex;
+  }
+  .P-input{
+    width: 360px;
+    color: #009999 ;
+    border-radius: 0;
+    padding: 12px 15px;
+    color: #009999;
+    border: none;
+  }
+  .P-input::placeholder{
+    color:#009999;
+    font-size: 16px;
+  }
+  .P-button{
+    color: white;
+    cursor: pointer;
+    background-color: #009999;
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin-left: -1px;
+    border-radius: 0;
+  }
+  .P-button:hover{
+    background-color: green;
+  }
